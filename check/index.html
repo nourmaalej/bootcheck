@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+       <meta charset="utf-8" />
+    <title>formulaire</title>
+    <link rel="icon" href="photos/logo.jpg" >
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+	      <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" style="max-width: 80px" href="#"><img id="ayhaja" src="logonour.png" height="100%" width="100%" ></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="home.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+
+        <li class="active"><a href="index.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" style="width: 100%;height: 500px;" >
+    <div class="item active">
+      <img src="photos/image1.png"  width="100%" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="photos/image2.jpeg" width="100%" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="photos/image3.png" width="100%" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+
+<!-- <img id="lolo" src="photos/image1.png"><br>
+<img id="lolo" src="photos/image2.jpeg"><br>
+<img id="lolo" src="photos/image3.png"><br>
+ -->
+
+
+<!--
+		<form>
+			<header>
+        <b> contact </b>
+      </header>
+      <div id="jojo">
+			<label> your name : </label> <input type ="text"placeholder="your name"  id="text"> <br>
+			<label> track :</label> <select> 
+
+                                       <option> web </option>
+                                       <option> ai </option>
+                                       <option> game </option>
+                               </select> <br>
+                                 
+     <label> adressse email </label><input type="text"placeholder="name@gmail.com"   id="text"> <br>
+     <label> phone number</label> <input type="text"placeholder="your number please"  id="text"> <br>
+                                  <input type="submit" value="submit" class="btn" >                       
+
+      </div>
+
+    </form>  
+-->
+<div align="center">
+                    <form id="contactForm">
+                      <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="form-group col-sm-4">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Your name">
+                        </div>
+                        </div>
+                         <div class="row">
+                        <div class="col-sm-4"></div>
+
+                        <div class="form-group col-sm-4">
+                                <label for="exampleFormControlSelect1">Track</label>
+                                <select class="form-control" id="track">
+                                  <option>Web</option>
+                                  <option>Game</option>
+                                  <option>AI</option>
+                                </select>
+                              </div></div>
+                               <div class="row">
+                        <div class="col-sm-4"></div>
+
+                        <div class="form-group col-sm-4">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                              </div></div>
+                               <div class="row">
+                        <div class="col-sm-4"></div>
+                                
+                              <div class="form-group col-sm-4">
+                                    <label for="exampleFormControlInput1">Phone number</label>
+                                    <input type="number" class="form-control" id="phone" placeholder="Your Phone Number">
+                                  </div>
+</div>
+                                 
+                        <div class="form-group row">
+                                <div class="col-sm-10">
+                                  <button type="submit" class="btn btn-primary" style="margin-left:255px;">Submit</button>
+                                </div>
+                              </div>
+                            </form>
+
+                    </div></body>
+</html>
